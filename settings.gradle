@@ -1,0 +1,2 @@
+rootProject.name = "JK Dairy Hub"
+include ':app'
