@@ -1,0 +1,1 @@
+package com.jksdairyhub.jksdairyhub.Utils.Network;import org.json.JSONObject;public interface ResponseListener {    void onResponseSuccess(int RequestCode, JSONObject result);    void onResponseError(int RequestCode, int ErrorCode, String Error);}

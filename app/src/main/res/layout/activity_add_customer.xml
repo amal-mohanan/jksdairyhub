@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".App.Activities.AddCustomerActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.jksdairyhub.jksdairyhub.App.Controls.MyEditText
+                android:id="@+id/txt_customer_shop_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Shop Name"
+                android:textColor="@color/colorTextDark"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+
+            <com.jksdairyhub.jksdairyhub.App.Controls.MyEditText
+                android:id="@+id/txt_customer_gst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Owner Name"
+                android:textColor="@color/colorTextDark"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+
+            <com.jksdairyhub.jksdairyhub.App.Controls.MyEditText
+                android:id="@+id/txt_customer_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contact No."
+                android:textColor="@color/colorTextDark"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <com.jksdairyhub.jksdairyhub.App.Controls.MyEditText
+                android:id="@+id/txt_customer_place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Place"
+                android:textColor="@color/colorTextDark"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <com.jksdairyhub.jksdairyhub.App.Controls.MyEditText
+                android:id="@+id/txt_customer_Category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Category"
+                android:textColor="@color/colorTextDark"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <com.jksdairyhub.jksdairyhub.App.Controls.MyEditText
+                android:id="@+id/txt_customer_shop_side"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Road side(left,right)"
+                android:textColor="@color/colorTextDark"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <com.jksdairyhub.jksdairyhub.App.Controls.MyEditText
+                android:id="@+id/txt_customer_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:hint="Additional info"
+                android:minHeight="130dp"
+                android:textColor="@color/colorTextDark"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:id="@+id/view_switcher"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="center">
+
+                    <ProgressBar
+                        android:id="@+id/progress_login"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:visibility="gone" />
+                    <!--#536dfe blue btn color-->
+                    <com.jksdairyhub.jksdairyhub.App.Controls.MyTextView
+                        android:id="@+id/btn_add_customer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_login_btn"
+                        android:elevation="3dp"
+                        android:gravity="center"
+                        android:letterSpacing="0.2"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:text="@string/add"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

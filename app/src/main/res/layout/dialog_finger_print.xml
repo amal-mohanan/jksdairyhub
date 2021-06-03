@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_dlg_accent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.jksdairyhub.jksdairyhub.App.Controls.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Awesome !"
+        android:maxLines="1"
+        android:textColor="@color/colorTextDark"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_fingerprint" />
+
+    <com.jksdairyhub.jksdairyhub.App.Controls.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Now unlock with finger print."
+        android:textColor="@color/colorTextDark"
+        android:textSize="16sp" />
+</LinearLayout>
